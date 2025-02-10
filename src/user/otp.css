@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.otp-page {
+  text-align: center;
+  width: 400px;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: relative;
+}
+
+.enter-otp {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.box1 {
+  display: block;
+  margin: 10px auto;
+  width: 90%;
+  height: 50px;
+  font-size: 18px;
+  background-color: rgb(244, 241, 241);
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button1 {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.button1:hover {
+  background-color: #891111;
+}
+
+.resend-otp {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #555;
+}
+
+.resend-otp:hover {
+  color: #333;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: red;
+}
+.otp-message {
+  color: rgb(199, 141, 33);
+  text-align: center;
+  font-size: 18px;
+}

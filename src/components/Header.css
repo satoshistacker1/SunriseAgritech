@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between; /* Ensures space between left and right elements */
+  align-items: center; /* Aligns all child elements vertically */
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  
+  
+}
+
+.logo a {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px; /* Adds consistent spacing between nav items */
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.user-links {
+  display: flex;
+  gap: 20px; /* Adds consistent spacing between user links */
+}
+
+.user-links .header-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.cart a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.search-box {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Additional refinements */
+.header > * {
+  display: flex;
+  align-items: center; /* Ensures all items inside each section align vertically */
+}
+
+.navbar,
+.user-links,
+.cart,
+.search-box {
+  margin-left: 20px; /* Ensures spacing between grouped sections */
+}
